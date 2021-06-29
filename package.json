@@ -1,0 +1,25 @@
+{
+  "name": "dvideo",
+  "version": "1.0.0",
+  "description": "A decentralized video sharing application.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshat Dobriyal",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "ipfs-api": "^18.1.1"
+  },
+  "dependencies": {
+    "babel-install": "^2.1.0",
+    "chai-as-promised": "^7.1.1",
+    "identicon": "^3.0.1",
+    "ipfs-http-client": "^50.1.2",
+    "mocha": "^9.0.0"
+  }
+}

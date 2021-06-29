@@ -1,0 +1,42 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-install": "^2.1.0",
+    "babel-register": "^6.26.0",
+    "bootstrap": "^4.6.0",
+    "identicon": "^3.0.1",
+    "ipfs-client": "^0.4.2",
+    "ipfs-http-client": "^50.1.2",
+    "lodash": "^4.17.21",
+    "react": "16.11.0",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "16.11.0",
+    "react-identicons": "^1.2.5",
+    "react-scripts": "3.2.0",
+    "watchpack": "^2.2.0",
+    "web3": "1.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
