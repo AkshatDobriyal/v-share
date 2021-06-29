@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#root {
+  background: url(dvideobg.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color:#efeff01a;
+}
+li {
+  display: inline;
+  float: left;
+}
+li a {
+  display: block;
+  color: rgb(220, 226, 222);
+  padding: 8px 8px 8px 8px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #dfe3e9;
+  color: black;
+  border: black;
+}
+
+.iden {
+  float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.leftColumn {
+  float: left;
+  width: 75%;
+  height:auto;
+  background-color: rgba(209, 12, 12, 0.411);
+  padding: 5px 5px 10px 5px;
+}
+
+.rightColumn {
+  float: right;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.178);
+  padding: 20px 20px 20px 20px;
+}
+
+.card {
+  
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.178);
+}
+
+.upload {
+  color: white;
+  background-color: red;
+  border-color: red;
+  border-radius: 8px;
+  padding: 5px 5px 5px 5px;
+}
+
+.input-video {
+  border: black;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.choose {
+  margin: auto;
+  width: 50%;
+  border-radius: 8px;
+}
